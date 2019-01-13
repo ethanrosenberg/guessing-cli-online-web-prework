@@ -3,10 +3,12 @@ require 'pry'
 
 
 def run_guessing_game
-  while 
-  puts "Guess a number between 1 and 6."
-  random = rand(1..6).to_s
-  input = gets.chomp
+  loop do
+     puts "Guess a number between 1 and 6."
+      random = rand(1..6).to_s
+      input = gets.chomp
+  end
+ 
   binding.pry
   if input == "exit"
     puts "Goodbye!"
