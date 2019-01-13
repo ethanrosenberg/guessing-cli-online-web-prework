@@ -8,6 +8,7 @@ def run_guessing_game
     puts "Goodbye!"
   elsif input == random.to_s
     puts "You guessed the correct number!"
+  elsif input == 
     
   
 end
